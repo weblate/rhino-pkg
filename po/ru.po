@@ -4,7 +4,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-18 07:26+0200\n"
 "PO-Revision-Date: 2026-11-17 15:51+0000\n"
-"Last-Translator: LibreTranslate <noreply-mt-libretranslate@weblate.org>\n"
+"Last-Translator: Roman Serov <cgtalium@yandex.com>\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/rhino-linux/"
 "rhino-pkg/ru/>\n"
 "Language: ru\n"
@@ -23,7 +23,7 @@ msgstr "Не найдены пакеты по шаблону '{rest}'!"
 #: rhino-pkg:254
 #, python-brace-format
 msgid "Select which packages to install"
-msgstr "Выберите устанавливаемый пакеты"
+msgstr "Выберите, какие пакеты установить"
 
 #: rhino-pkg:256
 #, python-brace-format
@@ -43,12 +43,12 @@ msgstr "Не удалось установить '{pkg}."
 #: rhino-pkg:336
 #, python-brace-format
 msgid "Select which package to remove"
-msgstr "Выберите удаляемый пакет"
+msgstr "Выберите, какой пакет удалить"
 
 #: rhino-pkg:338
 #, python-brace-format
 msgid "Removing '{part}' from '{provider}'"
-msgstr ""
+msgstr "Удаление '{part}' из '{provider}'"
 
 #: rhino-pkg:377
 #, python-brace-format
@@ -56,6 +56,8 @@ msgid ""
 "Attempting to repair dependencies and remove unused packages. Continue? ({y}/"
 "{n}) "
 msgstr ""
+"Выполняется восстановление зависимостей и удаление неиспользуемых пакетов. "
+"Продолжить? ({y}/{n}) "
 
 #: rhino-pkg:428
 #, python-brace-format
@@ -65,7 +67,7 @@ msgstr "Обновить все пакеты? ({y}/{n}) "
 #: cmd.nu:38 cmd.nu:48
 #, python-brace-format
 msgid "No valid inputs given!"
-msgstr ""
+msgstr "Не задано допустимых входных данных!"
 
 #: search.nu:12 search.nu:47
 #, python-brace-format
@@ -90,4 +92,4 @@ msgstr "Поиск в Snap…"
 #: apt.nu:51
 #, python-brace-format
 msgid "`aptitude` not installed."
-msgstr ""
+msgstr "Утилита `aptitude` не установлена."
